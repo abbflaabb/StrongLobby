@@ -1,0 +1,47 @@
+scoreboard:
+  title: "&aExample Scoreboard"
+  playerNamePrefix: "&ePlayer Name: "
+  playerHealthPrefix: "&ePlayer Health: "
+  playerRankPrefix: "&eRank: "
+
+settings:
+  tpmessage-enable: true
+  spawn-on-join: true
+
+messages:
+  tpmessage: "&aYou have been teleported to the Spawn"
+  error-nospawnpoint: "&cNo Spawn Point set"
+  success-setspawn: "&aSpawn point set Correctly"
+  cmd-spawn-usage: "&cUsage: /spawn"
+  cmd-setspawn-usage: "&cUsage: /setspawn"
+
+spawn: {}
+
+
+help:
+  general:
+    - "&aAvailable Commands:"
+    - "&e/spawn &f- Teleport to spawn point"
+    - "&e/setspawn &f- Set the spawn point , &4&lAdminCommand"
+    - "&e/fly &f- Toggle fly mode"
+    - "&e/Reload &fReloadConfig , &a&lAdminCommand"
+    - "&e/showscoreboard &f- Show the scoreboard"
+    - "&e/hidescoreboard &f- Hide the scoreboard"
+    - "&e/help [command] &f- Display help for a command"
+  commands:
+    spawn:
+      - "&e/spawn &f- Teleport to spawn point"
+      - "&7Usage: /spawn"
+    setspawn:
+      - "&e/setspawn &f- Set the spawn point"
+      - "&7Usage: /setspawn"
+    fly:
+      - "&e/fly &f- Toggle fly mode"
+      - "&7Usage: /fly"
+    showscoreboard:
+      - "&e/showscoreboard &f- Show the scoreboard"
+      - "&7Usage: /showscoreboard"
+    hidescoreboard:
+      - "&e/hidescoreboard &f- Hide the scoreboard"
+      - "&7Usage: /hidescoreboard"
+

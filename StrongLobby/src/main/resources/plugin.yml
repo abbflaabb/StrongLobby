@@ -1,0 +1,34 @@
+name: StrongLobby
+version: '${project.version}'
+main: jamjomm.stronglobby.StrongLobby
+api-version: '1.17'
+
+
+commands:
+  Fly:
+  StrongLobby.Fly:
+
+  spawn:
+    description: Teleport to the Spawn
+  setspawn:
+    description: Set the Spawn point
+  StrongLobby.admin:
+    description: Allows you to set the spawn
+    default: op
+  StrongLobby.spawn:
+    description: Allows you to go to the spawn
+    default: false
+  StrongLobbyReload:
+  StrongLobby.reload:
+      description: Allows the player to reload the configuration of the StrongLobby plugin.
+      default: op
+
+  showscoreboard:
+    description: Show the scoreboard
+  hidescoreboard:
+    description: Hide the scoreboard
+  help:
+    description: Display help information
+    usage: /Help
+  rank:
+    description: Display your rank
